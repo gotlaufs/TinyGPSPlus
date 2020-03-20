@@ -281,6 +281,7 @@ bool TinyGPSPlus::endOfTermHandler()
   return false;
 }
 
+# if 0
 /* static */
 double TinyGPSPlus::distanceBetween(double lat1, double long1, double lat2, double long2)
 {
@@ -326,6 +327,7 @@ double TinyGPSPlus::courseTo(double lat1, double long1, double lat2, double long
   }
   return degrees(a2);
 }
+#endif
 
 const char *TinyGPSPlus::cardinal(double course)
 {
